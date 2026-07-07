@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(java --version)",
+      "Bash(mvn --version)",
+      "Bash(npm --version)",
+      "Bash(mysql --version)",
+      "Bash(mysqladmin -u root -p123456 ping)",
+      "Bash(mysql -u root -p123456 -e \"SHOW DATABASES;\")",
+      "Bash(mysql -u root -p123456 -e \"USE oilfield_petition; SHOW TABLES;\")"
+    ]
+  }
+}
